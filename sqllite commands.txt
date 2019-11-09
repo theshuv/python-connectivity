@@ -1,0 +1,12 @@
+Run cmd from folder where your spyder data is stored(from anaconda)
+
+C:\users\dbda24\.spyder-py3>sqlite mydb.db
+
+create table mytable1(id int,name text,sal int);
+insert into mytable1 values(10,"shuv",95000);
+insert into mytable1 values(20,"kapil",33500);
+insert into mytable1 values(30,"abhijeet",36000);
+insert into mytable1 values(40,"sarang",12000);
+insert into mytable1 values(50,"amit",35000);
+select * from mytable1;
+

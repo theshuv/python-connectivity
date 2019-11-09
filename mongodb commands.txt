@@ -1,0 +1,15 @@
+create mongodb server using 
+your link where mongodb data is stored within C:\ folder
+C:\Program Files\MongoDB\Server\4.2\bin
+at this link in address-bar type cmd an cmd will open
+there type command >>mongod --dbpath F:\mongodbdemos
+here  F:\mongodbdemos is folder where your documents & collections are stored.
+
+once again in C:\Program Files\MongoDB\Server\4.2\bin
+type cmd in address-bar
+now type command 
+>>mongo
+mongo>>show dbs
+mongo>>use "dbname"
+mongo>>show collections
+mongo>>db."collection name".find().pretty()
